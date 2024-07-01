@@ -11,7 +11,7 @@ class MessageRepository {
 
     init {
         val retrofit = Retrofit.Builder()
-            .baseUrl("https://crudcrud.com/api/6a99fe78655c4ad39ddaea5e89979a34/")
+            .baseUrl("https://crudcrud.com/api/31fdb3fa056f4ce39a7d4bdd242f92bf/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         api = retrofit.create(ApiService::class.java)
